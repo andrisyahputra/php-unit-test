@@ -18,7 +18,12 @@ class ComposerStaticInitb8bd1d3fb7314023f4fd4036781fed23
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'PhpParser\\' => 10,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'D' => 
         array (
@@ -32,9 +37,17 @@ class ComposerStaticInitb8bd1d3fb7314023f4fd4036781fed23
             0 => __DIR__ . '/../..' . '/src',
             1 => __DIR__ . '/../..' . '/test',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'DeepCopy\\' => 
         array (
